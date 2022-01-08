@@ -2,3 +2,38 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+input.input-form {
+  padding: 5px;
+  letter-spacing: 2px;
+  width: 200px;
+  padding-left: 8px;
+  outline: 0;
+}
+
+button#submit-btn {
+  padding: 5px;
+  background: transparent;
+  border: 1px solid #949191;
+  margin-left: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  outline: 0;
+  color: grey;
+}
+
+p.item {
+  border: 1px solid grey;
+  width: 350px;
+  padding: 5px;
+  text-align: left;
+  padding-left: 15px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper {
+  margin-top: 50px;
+}
