@@ -60,5 +60,5 @@ export default function* todoSaga() {
   yield takeEvery(GET_TODOS_REQUESTED, getTodos);
   yield takeEvery(SET_TODO_TITLE_REQUESTED, setTodoTitle);
   yield takeLatest(CREATE_TODO_REQUESTED, createTodo);
-  yield takeEvery(DELETE_TODO_REQUESTED, deleteTodo);
+  yield takeLatest(DELETE_TODO_REQUESTED, deleteTodo);
 }

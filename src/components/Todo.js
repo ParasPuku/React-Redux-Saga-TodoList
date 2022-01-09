@@ -24,7 +24,7 @@ const Todo = ({ todo: { loading, todos }, getTodos, deleteTodo }) => {
   return (
     <>
       <TodoForm />
-      {loading && "Loading..."}
+      <div className="loader">{loading && "Loading..."}</div>
       <div className="wrapper">
         {todos &&
           todos.map((todo, index) => (
